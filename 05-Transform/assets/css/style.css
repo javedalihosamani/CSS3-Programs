@@ -1,0 +1,56 @@
+/* P1.HTML CODE */
+section{
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    width: 400px;
+    box-shadow: -3px -3px 3px #ccc, 3px 3px 3px #ccc;
+    border-radius: 10px;
+    transition: 1s;
+}
+.translate:hover{
+    transform: translate(100px, 100px);
+}
+.translateX:hover{
+    transform: translateX(100px);
+}
+.translateY:hover{
+    transform: translateY(100px);
+}
+/* P2.HTML CODE */
+.scale:hover{
+    transform: scale(2,2);
+}
+.scaleX:hover{
+    transform: scaleX(2);
+}
+.scaleY:hover{
+    transform: scaleY(2);
+}
+/* P3.HTML CODE */
+.rotate:hover{
+    transform: rotate(45deg);
+}
+.rotateX:hover{
+    transform: rotateX(180deg);
+}
+.rotateY:hover{
+    transform: rotateY(180deg);
+}
+/* P4.HTML CODE  */
+.skew:hover{
+    transform: skew(30deg, 20deg);
+}
+.skewX:hover{
+    transform: skewX(20deg);
+}
+.skewY:hover{
+    transform: skewY(20deg);
+}
+/* P5.HTML CODE */
+.matrix1:hover{
+    transform: matrix(2,0,0,2,120,300);
+}
+.matrix2:hover{
+    transform: matrix(1,2,-1,1,80,80);
+}

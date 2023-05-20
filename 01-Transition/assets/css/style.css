@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* P1.HTML CODE */
+section{
+    background-color: teal;
+    padding: 20px;
+    margin: 20px;
+}
+.transition{    
+    transition: 2000ms;
+    transition:5s;
+    transition:color 2s;
+    transition:background-color calc(1s + 1s);
+}
+.transition:hover{
+    background-color: grey;
+    color: #fff;
+}
+/* P2.HTML CODE */
+.bgClip{
+    border: 5px dotted #40a0e9;
+    border-radius: 10px;
+    text-align: justify;
+    transition: 2s;
+    background-clip: content-box;
+    background-clip: padding-box;
+    background-clip: border-box;
+}
+.bgClip:hover{
+    border-radius: 50%;
+    text-align: center;
+}
+/* P3.HTML CODE */
+.common{
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    background-color: crimson;
+    color:#fff;
+    transition: width 2s;
+}
+.common:hover {
+    width: 100px;
+    background-color: gold;
+}
+#d1 { transition-timing-function:linear;} /* cubic-bezier(0,0,1,1) */
+#d2 { transition-timing-function:  ease-in; }  /* cubic-bezier(0.42,0,1,1) */
+#d3 { transition-timing-function:  ease-out; } /* cubic-bezier(0,0,0.58,1) */
+#d4 { transition-timing-function:  ease; } /* cubic-bezier(0.25,0.1,0.25,1) */
+#d5 { transition-timing-function:  ease-in-out; } /* cubic-bezier(0.42,0,0.58,1) */
+#d6 { transition-timing-function:  steps(6,jump-start); /* jump-start,jump-end,start,end,jump-both,jump-none */ }
+#d7 { transition-timing-function:  cubic-bezier(0.5,0.7,0.8,0.1); /*  */ }

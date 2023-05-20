@@ -1,0 +1,48 @@
+/* MOBILE VERSION */
+@media(max-width:768px){
+    header{
+        background-color: teal;
+        padding: 20px;
+    }
+    header>nav{
+        text-align: center;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav>ul>li{
+        display: block;
+    }
+    .banner1{
+        background-color: skyblue;
+    }
+    .banner2{
+        background-image: url(../images/mobile.jpg);
+    }
+    .banner3{
+        background: linear-gradient(red, yellow);
+    }
+}
+
+/* TABLET VERSION */
+@media(min-width:769px) and (max-width:1200px){
+    header{
+        background-color: skyblue;
+        padding: 20px;
+    }
+    header>nav{
+        text-align: center;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    .banner1{
+        background-color: grey;
+    }
+    .banner2{
+        background-image: url(../images/tab.jpg);
+    }
+    .banner3{
+        background: linear-gradient(grey, teal);
+    }
+}

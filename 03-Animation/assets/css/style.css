@@ -1,0 +1,74 @@
+/* P1.HTML CODE */
+.commonAnimation{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 300px;
+}
+.animation1{
+    background: #fc466B;
+    /* animation: be-practical;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+    animation: be-practical 10s infinite;
+}
+.animation1>h1, .animation2>h1, .animation3>h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #000;
+} 
+@keyframes be-practical {
+    from{background: linear-gradient(to right, #00f260, #0575e6);}
+    to{ background: linear-gradient(to right, #fc4a1a, #f7b733);}
+}
+.animation1:hover{
+    background:  #9546fc;
+}
+
+/* P2.HTML CODE */
+.animation2{
+    background: url(../images/desktop.jpg) no-repeat center;
+    background-size: 100%;
+    animation: animation_image 10s infinite;
+}
+@keyframes animation_image {
+    from{background: url(../images/desktop.jpg) no-repeat top;color:red}
+    to{background: url(../images/desktop.jpg) no-repeat bottom; color: green;}
+}
+/* P3.HTML CODE */
+.animation3{
+    background: #fc466B;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    position: absolute;
+    animation: cssAnimation3 10s infinite;
+}
+@keyframes cssAnimation3 {
+    0%{
+        top: 0px;
+        left: 0px;
+        background: #fc466B;
+    }
+    25%{
+        top: 0px;
+        left: 600px;
+        background: cadetblue;
+    }
+    50%{
+        top: 400px;
+        left: 600px;
+        background-color: chartreuse;
+    }
+    75%{
+        top: 400px;
+        left: 0px;
+        background: teal;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background: #fc466B;
+    }
+}
